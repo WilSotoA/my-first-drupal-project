@@ -1,0 +1,29 @@
+uuid: b446aea8-c0b7-41d8-bcc1-7ce6b3b135b9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hike_difficulty
+    - node.type.body
+    - taxonomy.vocabulary.difficulty
+id: node.body.field_hike_difficulty
+field_name: field_hike_difficulty
+entity_type: node
+bundle: body
+label: 'Hike difficulty'
+description: 'Select an appropriate difficulty of the hike required to reach waterfall.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      difficulty: difficulty
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

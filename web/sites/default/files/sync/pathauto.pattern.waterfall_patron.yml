@@ -1,0 +1,22 @@
+uuid: cfee8eb2-1e03-4293-a4aa-de8a54b89d47
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: waterfall_patron
+label: 'Waterfall patron'
+type: 'canonical_entities:node'
+pattern: '/watherfall/[node:title]'
+selection_criteria:
+  2ab95520-6c3d-4017-a77e-f5ffc5413d35:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 2ab95520-6c3d-4017-a77e-f5ffc5413d35
+    context_mapping:
+      node: node
+    bundles:
+      body: body
+selection_logic: and
+weight: -5
+relationships: {  }

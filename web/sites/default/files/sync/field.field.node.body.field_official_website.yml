@@ -1,0 +1,23 @@
+uuid: a0d0da53-8cc6-4bf9-bd7b-afc8bf71be02
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_official_website
+    - node.type.body
+  module:
+    - link
+id: node.body.field_official_website
+field_name: field_official_website
+entity_type: node
+bundle: body
+label: 'Official Website'
+description: 'If known, link to an external official website for the waterfall.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
