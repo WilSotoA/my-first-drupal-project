@@ -17,7 +17,7 @@ plugin: 'block_content:23dc90af-15ff-4775-9bd9-cbec0a78365c'
 settings:
   id: 'block_content:23dc90af-15ff-4775-9bd9-cbec0a78365c'
   label: 'Welcome Block'
-  label_display: visible
+  label_display: '0'
   provider: block_content
   status: true
   info: ''
