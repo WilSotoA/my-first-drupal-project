@@ -1,0 +1,11 @@
+uuid: 806e83c0-6774-48f8-8475-b47ad8f8413a
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.brochure_block
+id: block_content.brochure_block
+target_entity_type_id: block_content
+target_bundle: brochure_block
+default_langcode: site_default
+language_alterable: false
