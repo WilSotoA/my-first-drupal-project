@@ -13,7 +13,7 @@ dependencies:
     - field.field.node.body.field_waterfall_height
     - field.field.node.body.field_waterfall_location
     - field.field.node.body.field_waterfall_video
-    - image.style.thumbnail
+    - image.style.500x500_square
     - node.type.body
   module:
     - image
@@ -37,7 +37,7 @@ content:
     label: hidden
     settings:
       image_link: content
-      image_style: thumbnail
+      image_style: 500x500_square
       image_loading:
         attribute: lazy
     third_party_settings: {  }

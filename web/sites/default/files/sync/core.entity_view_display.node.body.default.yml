@@ -31,10 +31,11 @@ content:
     weight: 105
     region: content
   field_hike_difficulty:
-    type: entity_reference_label
+    type: entity_reference_entity_view
     label: above
     settings:
-      link: true
+      view_mode: default
+      link: false
     third_party_settings: {  }
     weight: 112
     region: content

@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.waterfall_teaser_view_mode
   module:
     - node
     - user
@@ -238,7 +238,8 @@ display:
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: waterfall_teaser_view_mode
       query:
         type: views_query
         options:
