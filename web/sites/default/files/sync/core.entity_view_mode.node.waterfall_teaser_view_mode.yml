@@ -1,0 +1,10 @@
+uuid: 426d1c5f-49c4-4b2b-b58b-92bf6e45ceee
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.waterfall_teaser_view_mode
+label: 'Waterfall Teaser view mode'
+targetEntityType: node
+cache: true
