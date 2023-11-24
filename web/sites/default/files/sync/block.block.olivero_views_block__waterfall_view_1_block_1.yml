@@ -1,0 +1,29 @@
+uuid: 8a944b81-e8dd-4d34-993d-d48eef99ecb6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.waterfall_view_1
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__waterfall_view_1_block_1
+theme: olivero
+region: content_above
+weight: -7
+provider: null
+plugin: 'views_block:waterfall_view_1-block_1'
+settings:
+  id: 'views_block:waterfall_view_1-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/waterfall/*'
